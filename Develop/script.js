@@ -13,6 +13,11 @@ function writePassword() {
 const typeOperation = ["getLength", "chooseSpecialCharacters"];
 var lengthPassword;
 var chooseSpecialCharacters;
+var lowercase = "abcdefghijklmnopqrstuvwxyz";
+var upercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var numeric = "0123456789";
+var punctuation = "!@#$%^&*()_+~`|}{[]\:;?><,./-=";
+var simbolsForPasswordGenerator = "";
 
 for (var index in typeOperation) {
   if (typeOperation[index] == "getLength") {
@@ -22,13 +27,29 @@ for (var index in typeOperation) {
     }
   }
   if (typeOperation[index] == "chooseSpecialCharacters") {
-    const chooseSpecialCharactersStr = prompt("Please enter at least one special character for password. Lowercase, uppercase, numeric, and/or special characters");
-    const arrayCriterias = chooseSpecialCharactersStr.split(",");
-    
+    alert("Please chouse at list one of special characters from the next! 'a, A, 1, !'");
+    const hasLowercaseLetters = confirm("Do you want lowercase letters?");
+    const hasUpercaseLetters = confirm("Do you want Upercase Letters?");
+    const hasNumericLetters = confirm("Do you want numeric letters?");
+    const hasSpecialCharacters = confirm("Do you want special characters?");
+
+    if (hasLowercaseLetters) {
+      simbolsForPasswordGenerator += lowercase;
+    }
+    if (hasUpercaseLetters) {
+      simbolsForPasswordGenerator += upercase;
+    }
+    if (hasNumericLetters) {
+      simbolsForPasswordGenerator += numeric;
+    }
+    if (hasSpecialCharacters) {
+      simbolsForPasswordGenerator += punctuation;
+    }
+    console.log(simbolsForPasswordGenerator);
   }
 
 //  console.log(typeOperation[index]);
-}
+};
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+// generateBtn.addEventListener("click", writePassword);
