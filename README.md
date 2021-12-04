@@ -13,13 +13,16 @@
 * Gave color style for alerts. Error allerts will be red and the password will be green.
 
 * Screen Imagis:
-1. !(./Assets/Screen Shot 2021-10-16 at 9.04.26 PM.png) 
+Main Page:
+<img width="2035" alt="Screen Shot 2021-12-04 at 11 19 01 AM" src="https://user-images.githubusercontent.com/90221273/144716745-ef3bec48-663d-4e61-8605-e58f145cf9b0.png">
 
-2. !(./Assets/Screen Shot 2021-10-16 at 9.05.41 PM.png) 
+Prompts:
+<img width="948" alt="Screen Shot 2021-12-04 at 11 19 20 AM" src="https://user-images.githubusercontent.com/90221273/144716758-396b346b-5fa4-4672-be1e-063696a9f74d.png">
 
-3. !(./Assets/Screen Shot 2021-10-16 at 9.06.20 PM.png) 
+<img width="952" alt="Screen Shot 2021-12-04 at 11 19 36 AM" src="https://user-images.githubusercontent.com/90221273/144716766-2bd32c89-5b66-4eb9-a923-4526f818ead9.png">
 
-4. !(./Assets/Screen Shot 2021-10-16 at 9.06.49 PM.png) 
+The password:
+<img width="2036" alt="Screen Shot 2021-12-04 at 11 19 58 AM" src="https://user-images.githubusercontent.com/90221273/144716776-61131512-14cf-491b-9fd6-b5ad3be9e967.png">
 
 * URL Link: https://adamdagi.github.io/js_password_generator/
 * GitHub Repo Link: https://github.com/AdamDagi/js_password_generator
